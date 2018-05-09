@@ -1,0 +1,57 @@
+body {
+    background: #fafafa;
+  }
+  .itemaCont {
+    width: 95%;
+    margin: auto;
+    margin-top: 0.2rem;
+    background: #fff;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  .itemaCont .phone_c {
+    width: 100%;
+    height: 5.92rem;
+    display: block;
+  }
+  .itemaCont .title {
+    font-size: 0.3rem;
+    padding: 0.2rem 0;
+    border-bottom: 1px solid #efefef;
+    padding-left: 0.2rem;
+    box-sizing: border-box;
+    color: #333333;
+  }
+  .itemaCont .info {
+    height: 1.2rem;
+    padding: 0.2rem;
+    box-sizing: border-box;
+  }
+  .itemaCont .info > div {
+    float: left;
+  }
+  .itemaCont .info .name_p img {
+    width: 0.72rem;
+    height: 0.72rem;
+    display: block;
+    border-radius: 50%;
+  }
+  .itemaCont .info .infoM {
+    width: 3.5rem;
+    font-size: 0.3rem;
+    padding-left: 0.3rem;
+    box-sizing: border-box;
+  }
+  .itemaCont .info .infoM p {
+    white-space: nowrap;
+  
+    text-overflow: ellipsis;
+  
+    overflow: hidden;
+  }
+  .itemaCont .info .day {
+    font-size: 0.22rem;
+    color: #999999;
+    float: right;
+    padding-right: 0.2rem;
+    box-sizing: border-box;
+  }
